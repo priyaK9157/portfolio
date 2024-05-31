@@ -8,7 +8,7 @@ export const projectsData = [
         id: 1,
         name: 'StudyNotion',
         description: 'Designed, and deployed StudyNotion,cutting-edge MERN stack educational platform incorporating MongoDB, Express.js, React.js, and Node.js, with JWT authentication. This innovative platform not only streamlined learning processes and provided a centralized learning hub, but also included seamless payment integration using UPI and multiple payment options. StudyNotion successfully',
-        tools: ['React.js','Express.js','Node.js','MongoDB'],
+        tools: ['React.js','Express.js','Node.js','MongoDB', 'JWT Authentication'],
         role: 'Full Stack Developer',
         code: '',
         demo: '',
@@ -19,8 +19,8 @@ export const projectsData = [
     {
         id: 2,
         name: 'ProjectBuddy',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
+        description: 'Developed PartnerBuddy, a collaborative platform that enables users to post their projects and find interested partners to collaborate with. The website allows project creators to post detailed descriptions of their projects, specify required skills, and set collaboration terms. Interested users can apply to these projects, showcasing their skills and experience. The platform fosters a community of innovators and problem-solvers, making it easier for individuals to find like-minded partners and work together on exciting projects.',
+        tools: ['HTML','NextJS','Javascript', 'Tailwind CSS', "Next Auth", 'Node js', "MongoDB", "Postman"],
         role: 'Full Stack Developer',
         code: '',
         demo: '',
@@ -30,23 +30,24 @@ export const projectsData = [
     {
         id: 3,
         name: 'Web-Detective',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
+        description: 'Created WebDetective, a web application that allows users to input a GitHub username and retrieve comprehensive profiles of GitHub users. The application provides detailed information including the user\'s repositories, followers, following, starred repositories, and activity logs. This tool is particularly useful for recruiters, developers, and anyone interested in gaining insights into a developer\'s work and contributions on GitHub. The intuitive interface and powerful search capabilities make it easy to navigate and find the desired information.',
         tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
         code: '',
         role: 'Full Stack Developer',
         demo: '',
-        image: realEstate,
+        image: realEstate, // Ensure 'realEstate' is properly defined or imported elsewhere in your code
         url: 'https://web-detective-six.vercel.app/'
     },
+    
     {
         id: 4,
         name: 'Netflix Clone',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
+        description: "Developed a Netflix Clone, a web application that mimics the core features of the popular streaming service, Netflix. The application allows users to browse through a vast collection of movies and TV shows, view detailed information about each title, and stream video content seamlessly. Users can create accounts, manage their profiles, add titles to their watchlist, and receive personalized recommendations based on their viewing history. The project focuses on providing a smooth user experience with a sleek and responsive design, along with robust backend support for handling user data and streaming services.",
+        tools: ['HTML','Tailwind css','Javascript','React js'],
         code: '',
         demo: '',
         image: ayla,
-        role: 'Full Stack Developer',
+        role: 'Frontend Developer',
         url: 'https://netflix-app-clone.vercel.app/'
     }
 ];
