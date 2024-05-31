@@ -83,8 +83,6 @@ export const skillsImage = (skill) => {
       return html;
     case 'photoshop':
       return photoshop;
-    case 'docker':
-      return docker;
     case 'illustrator':
       return illustrator;
     case 'adobe xd':
@@ -93,22 +91,16 @@ export const skillsImage = (skill) => {
       return afterEffects;
     case 'css':
       return css;
-    case 'angular':
-      return angular;
     case 'javascript':
       return javascript;
     case 'next js':
       return nextJS;
-    case 'nuxt js':
-      return nuxtJS;
     case 'react':
       return react;
     case 'svelte':
       return svelte;
     case 'typescript':
       return typescript;
-    case 'vue':
-      return vue;
     case 'bootstrap':
       return bootstrap;
     case 'bulma':
@@ -127,8 +119,6 @@ export const skillsImage = (skill) => {
       return postgresql;
     case 'tailwind':
       return tailwind;
-    case 'vitejs':
-      return vitejs;
     case 'vuetifyjs':
       return vuetifyjs;
     case 'c':
