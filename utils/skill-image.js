@@ -72,7 +72,9 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
-import node from '/public/svg/skills/node.svg'
+import nodejs from '/public/svg/skills/nodejs.svg'
+import express from '/public/svg/skills/express.svg'
+import rust from '/public/svg/skills/rust.svg'
 
 
 export const skillsImage = (skill) => {
@@ -98,80 +100,32 @@ export const skillsImage = (skill) => {
       return nextJS;
     case 'react':
       return react;
-    case 'node':
-      return node;
+    case 'nodejs':
+      return nodejs;
+    case 'express':
+      return express;
+    case 'rust':
+      return rust;
     case 'typescript':
       return typescript;
     case 'bootstrap':
       return bootstrap;
-    case 'bulma':
-      return bulma;
-    case 'capacitorjs':
-      return capacitorjs;
-    case 'coffeescript':
-      return coffeescript;
-    case 'memsql':
-      return memsql;
     case 'mongodb':
       return mongoDB;
     case 'mysql':
       return mysql;
-    case 'postgresql':
-      return postgresql;
     case 'tailwind':
       return tailwind;
-    case 'vuetifyjs':
-      return vuetifyjs;
     case 'c':
       return c;
     case 'c++':
       return cplusplus;
-    case 'c#':
-      return csharp;
-    case 'dart':
-      return dart;
-    case 'go':
-      return go;
-    case 'java':
-      return java;
-    case 'kotlin':
-      return kotlin;
-    case 'julia':
-      return julia;
-    case 'matlab':
-      return matlab;
-    case 'php':
-      return php;
-    case 'python':
-      return python;
-    case 'ruby':
-      return ruby;
-    case 'swift':
-      return swift;
-    case 'adobe audition':
-      return adobeaudition;
     case 'aws':
       return aws;
-    case 'deno':
-      return deno;
-    case 'django':
-      return django;
-    case 'firebase':
-      return firebase;
-    case 'gimp':
-      return gimp;
     case 'git':
       return git;
-    case 'graphql':
-      return graphql;
-    case 'lightroom':
-      return lightroom;
     case 'materialui':
       return materialui;
-    case 'nginx':
-      return nginx;
-    case 'numpy':
-      return numpy;
     case 'opencv':
       return opencv;
     case 'premiere pro':
