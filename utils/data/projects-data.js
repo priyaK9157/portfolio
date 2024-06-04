@@ -15,17 +15,16 @@ export const projectsData = [
         image: crefin,
         url: 'https://study-notion-five.vercel.app/'
     },
-    
     {
         id: 2,
-        name: 'ProjectBuddy',
-        description: 'Developed PartnerBuddy, a collaborative platform that enables users to post their projects and find interested partners to collaborate with. The website allows project creators to post detailed descriptions of their projects, specify required skills, and set collaboration terms. Interested users can apply to these projects, showcasing their skills and experience. The platform fosters a community of innovators and problem-solvers, making it easier for individuals to find like-minded partners and work together on exciting projects.',
-        tools: ['HTML','NextJS','Javascript', 'Tailwind CSS', "Next Auth", 'Node js', "MongoDB", "Postman"],
-        role: 'Full Stack Developer',
+        name: 'Banking App',
+        description: "Built Horizon, a financial SaaS platform powered by Next.js and TypeScript, seamlessly integrates with users' bank accounts for real-time transaction monitoring and enables effortless peer-to-peer money transfers. Utilizing Appwrite for backend services, Dwallo for enhanced security measures, and Plaid for secure banking data connectivity, Horizon offers a comprehensive suite of financial management features. Users can effectively oversee and optimize their entire financial landscape from a single platform.",
+        tools: ['HTML','Tailwind css','Javascript','React js', 'Next.js', 'TypeScript', 'Appwrite',"Dwollo", 'Plaid'],
         code: '',
         demo: '',
-        image: travel,
-        url:'https://github.com/priyaK9157/project-Buddy'
+        image: ayla,
+        role: 'Frontend Developer',
+        url: 'https://netflix-app-clone.vercel.app/'
     },
     {
         id: 3,
@@ -53,16 +52,3 @@ export const projectsData = [
 ];
 
 
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-//     image: crefin,
-// },
