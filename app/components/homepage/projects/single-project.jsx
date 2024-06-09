@@ -45,7 +45,7 @@ const SingleProject = ({ project }) => {
             alt={name}
             width={1080}
             height={720}
-            className="w-80 h-64 transition-opacity duration-[0.7s] delay-[0.3s] rounded-lg group-hover:opacity-0"
+            className="w-80 h-64 transition-opacity duration-[0.7s] delay-[0.3s] rounded-lg group-hover:opacity-0 "
           />
         </div>
         <div className="flex items-center justify-between w-full">
@@ -53,14 +53,14 @@ const SingleProject = ({ project }) => {
             href={demo}
             target='_blank'
             className="flex justify-center items-center w-10 h-10 rounded-full border-2 border-[#EFF3F4] text-[#EFF3F4] transition-all duration-300 hover:bg-[#231d4b] hover:text-violet-600 hover:border-[#0F0C41] hover:scale-110 decoration-clone cursor-pointer no-underline delay-[0.3s]">
-            <FaPlay />
+            <FaPlay/>
           </Link>
           
           <Link
             href={code}
             target='_blank'
             className="flex justify-center items-center w-10 h-10 rounded-full border-2 border-[#EFF3F4] text-[#EFF3F4] transition-all duration-300 hover:bg-[#231d4b] hover:text-violet-600 hover:border-[#0F0C41] hover:scale-110 cursor-pointer no-underline  delay-[0.3s] group-hover:translate-x-[-140px]">
-            <FaCode />
+            <FaCode/>
           </Link>
         </div>
       </div>
